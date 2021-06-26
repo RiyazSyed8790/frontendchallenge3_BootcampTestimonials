@@ -27,6 +27,7 @@ main{
     
     height: 20rem;
     display: flex;
+    flex-direction: row-reverse;
     margin: 0 2.5rem;
     align-items: center;
     background-image: url("./images/pattern-curve.svg");
@@ -107,3 +108,52 @@ button:hover{
 .attribution{
    margin: 1rem 0;   
 }
+/*Responsive styling start*/
+@media(max-width:380px){
+   body{
+    background-image: url("./images/pattern-curve.svg");
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 100% ;
+   }
+    main{
+       display: block;
+       float: none;
+       text-align: center;
+   }
+   .content1{
+     display:block;
+     float: none;
+
+     justify-content: flex-end;
+     text-align: center;
+     background-image: none;
+     
+     
+     
+ }
+   .quotecontent{
+       margin-right: 3rem;
+      
+   }
+   .quote{
+       background-position-x: 45%;
+       background-position-y: 5%;
+   }
+   
+   .model{
+       margin-right: 3rem;   
+   }
+   .navbar{
+       margin: 3.25rem 24rem;
+       width: 4rem;
+       height:2rem;
+       position: relative;
+   }
+   .attribution{
+       margin-top: 15rem;
+       margin-left: 6rem;
+       width: 10rem;
+   }
+}
+/*Responsive styling end*/
