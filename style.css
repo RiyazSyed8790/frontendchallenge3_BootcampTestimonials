@@ -79,6 +79,7 @@ main{
     margin-left: -0.4rem;
     margin-top:1.5rem;
     
+    
 }
 .navbar{
   position: absolute;
@@ -89,7 +90,8 @@ main{
   border-radius: 25px;
   width: 2rem;
   background-color: rgb(245, 240, 240);
-  
+  /*box-shadow: 5px 7px 2px hsl(240, 2%, 74%) ;*/
+  box-shadow: 5px 8px 1px rgb(223, 213, 213)  ;
 }
 button{
     padding: 0.25rem;
@@ -103,5 +105,5 @@ button:hover{
 }
 
 .attribution{
-   bottom : 0;   
+   margin: 1rem 0;   
 }
